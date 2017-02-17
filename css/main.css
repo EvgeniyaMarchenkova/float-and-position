@@ -1,5 +1,6 @@
 body {
     height: 2000px;
+    font-family: 'PT Sans', sans-serif;
 }
 .container {
     margin: 200px auto 0 auto;
@@ -39,23 +40,27 @@ body {
 .bookmark {
     border:2px solid black;
     position: absolute;
-    right: -82px;
     top: 30px;
-    width: 107px;
     height: 35px;
     border-radius: 0 10px 10px 0;
 }
 
 .firstBookmark {
     background-color: #f68e56;
+    width: 111px;
+    right: -83px;
 }
 
 .secondBookmark {
     background-color: #39b54a;
+    width: 99px;
+    right: -47px;
 }
 
 .thirthBookmark {
     background-color: #00aeef;
+    width: 99px;
+    right: -15px;
 }
 
 
@@ -79,25 +84,40 @@ body {
 
 footer  {
     display: inline-block;
-    text-align: center;
-
 }
 
 footer div  {
     margin: 25px auto 20px auto;
+    text-align: center;
 }
 
 .fixedBlock {
     position: fixed;
     right: 0;
-    bottom: 0;
-    height: 90px;
-    width: 90px;
+    bottom: 40px;
+    height: 71px;
+    width: 89px;
     background-color: #fbaf5d;
-
-
+    border: 1px solid black;
 }
 
-.fixedBlock div {
-    margin-top: 10px auto;
+.fixedBlock>div {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("../images/icons.png");
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.twitter {
+    background-position-x: -28px ;
+}
+
+.unknownIcon {
+    background-position-x: -56px ;
 }
